@@ -6,7 +6,21 @@
 }
 .d-show {
 display:block;
+background-color: rgb(255, 255, 255);    
 }
 .d-none {
     display:none;
     }
+
+.container {
+text-align: center;
+margin-top: 40vh;
+background-color: rgb(255, 0, 0);
+color: rgb(0, 0, 0);
+}
+
+#dadi {
+display: flex;
+justify-content: center;
+margin-top: 50px;
+}

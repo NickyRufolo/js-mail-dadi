@@ -13,11 +13,13 @@ const giocatori = [`nikirufolo@gmail.com`, `mecarm@gmail.com`, `cummarroc@gmail.
 function valida(){
     let email = document.getElementById("email").value;
     if (giocatori.includes(email) ){
-        console.log(`Bentornato, ora puoi giocare`)
-        document.getElementById(`Bentornato`).innerHTML = `Bentornato ${email}`;
+        console.log(`Bentornato!!! ora puoi giocare :)`)
+        document.getElementById(`Bentornato`).innerHTML = `Bentornato!!! ${email} ora puoi giocare :)`;
         document.getElementById(`Play`).className = `d-show`;
     } else {
-        console.log('Non sei iscritto')     
+        console.log('Non sei iscritto')
+        document.getElementById(`Bentornato`).innerHTML = `Email non valida`;
+
     }
 }
 
